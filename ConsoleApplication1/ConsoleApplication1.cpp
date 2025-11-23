@@ -18,8 +18,9 @@ int main() {
 	run(str2);
 	std::string str3 = "string c = 1+2*3;";
 	run(str3);
-	//std::string str3 = "string function func1 (int c1, int c2){}";
-	//run(str3);
+	std::string str4 = "int c = (1+2)*3;";
+	run(str4);
+
 	return 0;
 }
 

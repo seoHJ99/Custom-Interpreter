@@ -80,7 +80,6 @@ private:
 		}
 		else if (current.type == TokenType::StringType) {
 			consume(TokenType::StringType);
-			/*auto aaaaaa = parseSingleToken();*/
 			variables[current.text].type = TokenType::StringType;
 			auto node = makeTokenExpr();
 			auto result = node->eval();
